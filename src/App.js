@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import { Routes } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout';
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<layout />} />
+        <Route path="/" element={<Layout />} />
       </Routes>
     </>
   );

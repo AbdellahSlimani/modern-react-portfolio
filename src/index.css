@@ -4,11 +4,11 @@ html {
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Helvatica Neue', 'sans-serif';
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
   color: #444;
   background: #022c43;
   overflow: hidden;
-  display: block;
+  display: block ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
