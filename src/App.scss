@@ -6,3 +6,17 @@ $primary-color: #ffd700;
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format(ttf);
 }
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format(ttf);
+}
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolvetcaRg-Regular.woff2') format(ttf);
+}
+
+
+input,
+textarea {
+  font-family: 'Helvetica Neue';
+}
