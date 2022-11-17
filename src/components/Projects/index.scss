@@ -1,0 +1,79 @@
+.projects-page {
+  .text-zone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    max-width: 95%;
+    margin-top: 60px;
+    overflow:auto;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: 'Coolvetica';
+    color: #ffd700;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -10px;
+      left: -40px;
+      opacity: 0.6;
+      line-height: 18px;
+    }
+
+    &::after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 20px;
+      right: -50px;
+      opacity: 0.6;
+      line-height: 18px;
+    } 
+  }
+
+  .text-animate-hover {
+    &:hover {
+      color:#fff;
+    }
+  }
+  hr {
+    width: 50vw;
+    border-color: #ebde98;
+    border-top: none;
+  }
+
+  .projects-grid {
+    box-sizing: border-box;
+    padding: 16px;
+    margin-left: 75px;
+
+    display: grid;
+    width: 95%;
+    height: 95%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+
+    gap: 16px;
+    border: 10px solid red;
+
+    img {
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+
+  
+}

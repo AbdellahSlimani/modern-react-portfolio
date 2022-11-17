@@ -4,6 +4,8 @@ import Loader from 'react-loaders'
 /* import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser' */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -50,6 +52,14 @@ const Contact = () => {
               or large projects. However, if&nbsp;you have any other requests or
               questions, don't hesitate to contact me using below form either.
             </p>
+
+            <h2 className='contact-info'>Contact Infomation</h2>
+           {/*  <a target='_blank' rel='noreferrer' href='https://twitter.com/AbdalahSlimani'>
+              <FontAwesomeIcon icon={} color="#4d4d4e"/>
+            </a>
+            <a target='_blank' rel='noreferrer' href='https://twitter.com/AbdalahSlimani'>
+              <FontAwesomeIcon icon={} color="#4d4d4e"/>
+            </a> */}
           </div>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
