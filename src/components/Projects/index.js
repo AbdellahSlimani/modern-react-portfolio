@@ -4,24 +4,20 @@ import AnimatedLetters from '../AnimatedLetters'
 import projectsData from '../../data/projectsData.json'
 import './index.scss'
 
-
-
 const Projects = () => {
   const projectsTitleKeyWords = ['responsible', 'meaningful', 'beautiful']
   const [titlep2, setTitlep2] = useState('')
   let index = 0
 
-  const change = () => { 
+  const change = () => {
     setTitlep2(projectsTitleKeyWords[index])
     index = ++index % projectsTitleKeyWords.length
     setTimeout(change, 3000)
   }
-  
+
   useEffect(() => {
     change()
   }, [])
-  console.log(titlep2)
-  
 
   const titlep1 = 'I create '
   const titlep1Array = titlep1.split('')
@@ -37,12 +33,10 @@ const Projects = () => {
     }, 4000)
   }, [])
 
-  
-
   return (
     <>
-      <div className='container projects-page'>
-        <div className='text-zone'>
+      <div className="container projects-page">
+        <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -53,7 +47,7 @@ const Projects = () => {
               letterClass={letterClass}
               strArray={titlep2Array}
               idx={15}
-              id='to-change'
+              id="to-change"
             />
             <AnimatedLetters
               letterClass={letterClass}
@@ -62,10 +56,20 @@ const Projects = () => {
             />
           </h1>
           <hr></hr>
-          <div className='projects-grid'>
-            {projectsData.map(project =>
-              <img key={project.id} id={project.id} src={project.image} alt={project.title}/>
-            )}
+          <div className="projects-grid">
+            {projectsData.map((project, i) => (
+              <div className="project" key={i}>
+                <a href={project.codeOutput} target="_blank">
+                  <img src={project.image} alt={project.title} />
+                </a>
+                <div className="projectDetails">
+                  <a href={project.sourceCode} target="_blank">
+                    {project.title}
+                  </a>
+                  <p>{project.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
