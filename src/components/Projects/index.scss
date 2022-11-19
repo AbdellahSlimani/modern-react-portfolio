@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
 .projects-page {
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
   .text-zone {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 95%;
-    max-width: 95%;
-    margin-top: 60px;
-    overflow:auto;
+    height: 90%;
+    margin-top: 30px;
   }
-  
+
   h1 {
     font-size: 30px;
     font-family: 'Coolvetica';
@@ -41,12 +45,12 @@
       right: -50px;
       opacity: 0.6;
       line-height: 18px;
-    } 
+    }
   }
 
   .text-animate-hover {
     &:hover {
-      color:#fff;
+      color: #fff;
     }
   }
   hr {
@@ -57,23 +61,66 @@
 
   .projects-grid {
     box-sizing: border-box;
-    padding: 16px;
-    margin-left: 75px;
-
-    display: grid;
     width: 95%;
     height: 95%;
+    padding: 0 50px;
+    margin-left: 75px;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 250px;
-
+    justify-content: center;
+    align-items: center;
     gap: 16px;
-    border: 10px solid red;
+    overflow: auto;
 
-    img {
-      height: 250px;
-      object-fit: cover;
+    .project {
+      width: 100%;
+      height: 35vh;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
+
+      &Details {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        transform: translateY(100px);
+        padding: 5px 20px;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1),
+          0 -10px 10px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: all 0.3s ease-in-out;
+
+        a {
+          font-family: 'MuseoModerno', cursive;
+          font-size: 18px;
+          font-weight: bold;
+          color: #000;
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+
+      &:hover {
+        .projectDetails {
+          transform: translateY(0px);
+        }
+      }
     }
   }
-
-  
 }
