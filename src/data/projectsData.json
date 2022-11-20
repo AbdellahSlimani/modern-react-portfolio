@@ -2,271 +2,301 @@
   {
     "id": 1,
     "title": "EasyBank landing page",
-    "description": "A banking website, built using HTML, Javascript and Sass",
+    "description": "A banking website, built using HTML, Javascript and Sass.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/easybank-landing-page.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 2,
     "title": "Animated Christmas Tree",
-    "description": "",
+    "description": "This rotating Christmas tree is built only Html and CSS.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Animated-Christmas-Tree.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 3,
     "title": "Button Animation",
-    "description": "",
+    "description": "A simple button animation that can work as submit button or Add to cart button or anything else.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Button-Animation.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 4,
     "title": "Calculator",
-    "description": "",
+    "description": "Will it's a 'calculator'.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Calculator.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 5,
     "title": "Content Placeholder",
-    "description": "",
+    "description": "Skeleton loading that can be shown well the data is being pulled from the api.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Content-Placeholder.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 6,
     "title": "Dad Jokes",
-    "description": "",
+    "description": "Use api to generate a joke every time the button is clicked.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Dad-Jokes.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 7,
     "title": "Drag-N-Drop",
-    "description": "",
+    "description": "A small project that make you able to drag and drop an image from a frame to another, this can be implemented in many ways.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Drag-N-Drop.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 8,
     "title": "Drink water Reminder",
-    "description": "",
+    "description": "This webpage is supposed to keep track of how much you drink of water and remind you of how much left to drink.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Drink-water.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 9,
     "title": "Event Keycodes",
-    "description": "",
+    "description": "If you feel the need to know the event.keycode or event.code of a keyboard key.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Event-keycodes.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 10,
     "title": "Expanding Cards",
-    "description": "",
+    "description": "A slide to showcase images",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Expanding-Cards.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 11,
     "title": "FAQ",
-    "description": "",
+    "description": "An example of an FAQ page",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/FAQ.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 12,
     "title": "Form Wave Animation",
-    "description": "",
+    "description": "A very beautiful animated form",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Form-Wave-Animation.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 13,
     "title": "Glowing Icons",
-    "description": "",
+    "description": "Css only glowing icons that can be added anywhere",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Glowing-Icons.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 14,
     "title": "Guess The Number Game",
-    "description": "",
+    "description": "A Javascript Game tha is so fun to play. the computer to a random number between 1 and 100 and you role is to guess it.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Guess-The-Number-Game.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 15,
     "title": "Hidden Search",
-    "description": "",
+    "description": "A search field that expend to be visible when the icon is clicked and hide when it's clicked again or out of focus.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Hidden-Search.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 16,
     "title": "Magic Menu Indicator",
-    "description": "",
+    "description": "A very beautiful and well styled bottom menubar.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Magic-Menu-Indicator.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 17,
     "title": "Modern Animated Menu Toggle",
-    "description": "",
+    "description": "A very beautiful humbugger menu, and well styled",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Modern-Animated-Menu-Toggle-Button.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 18,
     "title": "Number Match Game",
-    "description": "",
+    "description": "The Goal of this simple game is to chose quickly a number between two number which one of them match the number of things in a picture.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Number-Match-Game.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 19,
     "title": "Password Validation",
-    "description": "",
+    "description": "Using Javascript This password validator can be used in any website that use login form, to validate if the password respect certain roles.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Password-Validation.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 20,
     "title": "Product Card UI Design",
-    "description": "",
+    "description": "A cart that expend to the site to reveal details.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Product-Card-UI-Design.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 21,
     "title": "Progress Steps",
-    "description": "",
+    "description": "Well it explain itself",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Progress-Steps.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 22,
     "title": "Quick Tip",
-    "description": "",
+    "description": "It calculate the tip amount using the tip percent and can split between multiple people.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Quick-Tip.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 23,
     "title": "Random Choice Picker",
-    "description": "",
+    "description": "You want to chose between multiple choices, this webpage make it easy for you.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Random-Choice-Picker.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 24,
     "title": "Rotating Navigation",
-    "description": "",
+    "description": "A webpage that rotate to the site when the hamburger menu is clicked.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Rotating-Navigation.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   },
   {
     "id": 25,
     "title": "Running Tracker",
-    "description": "",
+    "description": "A webpage that make you chose a goal so it track the amount of distant you run every day and show you how much left to run for the week.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Running-Tracker.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 26,
     "title": "SideBar Menu",
-    "description": "",
+    "description": "A well styled sidebar menu that can fit any kind of page.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/SideBar-Menu.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 27,
     "title": "Sound Board",
-    "description": "",
+    "description": "A collection of different sounds that plays after a button is clicked",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Sound-Board.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 28,
     "title": "Split Landing Page",
-    "description": "",
+    "description": "A webpage that has two side, if one of them is hovered it will expand and take over the screen.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Split-Landing-Page.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 29,
     "title": "Text Animation Effect",
-    "description": "",
+    "description": "A webpage that make you able to showcase any text you want.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Text-Animation-Effects.png",
-    "gif": ""
+    "gif": "",
+    "background": "black"
   },
   {
     "id": 30,
     "title": "Theme Clock",
-    "description": "",
+    "description": "A clock that shows you realtime time, and have dark and white mode.",
     "sourceCode": "https://github.com/AbdellahSlimani/easybank-project",
     "codeOutput": "https://abdellahslimani.github.io/easybank-project-short",
     "image": "images/Theme-clock.png",
-    "gif": ""
+    "gif": "",
+    "background": "white"
   }
 ]
