@@ -79,6 +79,7 @@ const Projects = () => {
                 </div>
               </div>
             ))}
+            <h2 className="projects_bottom">You have reach the bottom, but don't worry there is always more in the way...</h2>
           </div>
         </div>
       </div>
