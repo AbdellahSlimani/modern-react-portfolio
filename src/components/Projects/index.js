@@ -75,7 +75,7 @@ const Projects = () => {
                   <a href={project.sourceCode} target="_blank">
                     {project.title}
                   </a>
-                  <p>{project.description}</p>
+                  <p className={project.background}>{project.description}</p>
                 </div>
               </div>
             ))}

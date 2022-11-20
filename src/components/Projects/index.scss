@@ -85,10 +85,11 @@
       }
 
       &Details {
+        box-sizing: border-box;
         position: absolute;
         width: 100%;
         bottom: 0px;
-        transform: translateY(100px);
+        transform: translateY(200px);
         padding: 5px 20px;
         z-index: 1;
         background: rgba(255, 255, 255, 0.2);
@@ -101,9 +102,9 @@
 
         a {
           font-family: 'MuseoModerno', cursive;
-          font-size: 18px;
+          font-size: 20px;
           font-weight: bold;
-          color: #000;
+          color: #FF6701;
 
           &:hover {
             color: rgb(48, 56, 180);
@@ -113,6 +114,13 @@
         p {
           font-weight: bold;
           font-size: 14px;
+
+          &.white {
+            color: #000;
+          }
+          &.black {
+            color: #fff;
+          }
         }
       }
 
