@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 60px;
+  width: 65px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -10,16 +10,19 @@
   .logo {
     display: block;
     padding: 8px 0;
+    color: #fff;
 
     img {
       display: block;
       margin: 8px auto;
       width: 24px;
       height: auto;
+    }
 
-      &.sub-logo {
-        width: 50px;
-      }
+    span {
+      color: #fff;
+      padding: 3px;
+      font-weight: bold;
     }
   }
 
