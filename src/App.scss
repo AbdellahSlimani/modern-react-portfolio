@@ -1,4 +1,32 @@
 $primary-color: #ffd700;
+:root {
+  --black: #343434;
+  --bg: #f8e367;
+  --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
+  --shadow2: 0px 13px 46px rgba(0, 0, 0, 0.13);
+  --pink: #fe956f;
+}
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1ex;
+  -webkit-box-shadow: inset 0 0 6px     rgba(0,0,0,0.3); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: skyblue;
+  border-radius: 1ex;
+  -webkit-box-shadow: inset 0 0 6px     rgba(0,0,0,0.5);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';

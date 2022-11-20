@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
 
 .projects-page {
-  a {
-    color: currentColor;
-    text-decoration: none;
-  }
   .text-zone {
     display: flex;
     align-items: center;
@@ -101,13 +97,17 @@
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid rgba(255, 255, 255, 0.3);
-        transition: all 0.3s ease-in-out;
+        transition: all 0.25s ease-in-out;
 
         a {
           font-family: 'MuseoModerno', cursive;
           font-size: 18px;
           font-weight: bold;
           color: #000;
+
+          &:hover {
+            color: rgb(48, 56, 180);
+          }
         }
 
         p {
