@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
-import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser'
 import Loader from 'react-loaders'
-/* import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import { useRef } from 'react'
-import emailjs from '@emailjs/browser' */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,7 +21,12 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_4iiayop', 'template_7a4bzj6', form.current, 'Fr8B5VCy34Sqn_xwO')
+      .sendForm(
+        'service_4iiayop',
+        'template_7a4bzj6',
+        form.current,
+        'Fr8B5VCy34Sqn_xwO'
+      )
       .then(
         () => {
           alert('Message successfully sent!')
@@ -39,24 +42,60 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <div className="conatct-text-zone">
-            <h1>
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-                idx={15}
-              />
-            </h1>
-            <p>
-              I am interested in freelance opportunities - especially on ambitious
-              or large projects. However, if&nbsp;you have any other requests or
-              questions, don't hesitate to contact me using below form either.
-            </p>
+          <div className="contact-text-zone">
+            <div className="topPart">
+              <h1>
+                <AnimatedLetters
+                  letterClass={letterClass}
+                  strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+                  idx={15}
+                />
+              </h1>
+              <p>
+                I am interested in freelance opportunities - especially on
+                ambitious or large projects. However, if&nbsp;you have any other
+                requests or questions, don't hesitate to contact me using below
+                form either.
+              </p>
+            </div>
 
-            <h2 className='contact-info'>Contact Information</h2>
-            {/* <a target='_blank' rel='noreferrer' href='https://twitter.com/AbdalahSlimani'>
-              <FontAwesomeIcon icon={fatwitter} color="#4d4d4e"/>
-            </a> */}
+            <div className="contactInfo">
+              <h2 className="contactInfo__title">Contact Information</h2>
+              <div className="contactInfo__link">
+                <FontAwesomeIcon icon={faPhone} color="#e7ab0a" />
+                <p className="text-[5vw] md:text-2xl">+212 637477294</p>
+              </div>
+              <div className="contactInfo__link">
+                <FontAwesomeIcon icon={faEnvelope} color="#e7ab0a" />
+                <p className="text-[5vw] md:text-2xl">
+                  slimaniabdellah.as@gmail.com
+                </p>
+              </div>
+              <div className="contactInfo__link">
+                <FontAwesomeIcon icon={faTwitter} color="#e7ab0a" />
+                <p className="text-[5vw] md:text-2xl">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/AbdalahSlimani"
+                  >
+                    Twitter.com/abdalahslimani
+                  </a>
+                </p>
+              </div>
+              <div className="contactInfo__link">
+                <FontAwesomeIcon icon={faLinkedin} color="#e7ab0a" />
+                <p className="text-[5vw] md:text-2xl">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/AbdalahSlimani"
+                  >
+                    LinkedIN.com/abdellahslimani
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
