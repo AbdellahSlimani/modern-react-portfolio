@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+p {
+  font-size: 13px;
+}
+
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
