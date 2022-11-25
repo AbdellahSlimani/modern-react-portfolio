@@ -2,10 +2,8 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faAngular,
   faBootstrap,
   faCss3,
-  faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,

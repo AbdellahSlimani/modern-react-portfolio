@@ -13,19 +13,6 @@ const Projects = () => {
     loop: true,
     delaySpeed: 2000,
   });
- /*  const projectsTitleKeyWords = ['responsible', 'meaningful', 'beautiful']
-  const [titlep2, setTitlep2] = useState('')
-  let index = 0
-
-  const change = () => {
-    setTitlep2(projectsTitleKeyWords[index])
-    index = ++index % projectsTitleKeyWords.length
-    setTimeout(change, 3000)
-  }
-
-  useEffect(() => {
-    change()
-  }, []) */
 
   const titlep1 = 'I create '
   const titlep1Array = titlep1.split('')
@@ -68,11 +55,11 @@ const Projects = () => {
           <div className="projects-grid">
             {projectsData.map((project, i) => (
               <div className="project" key={i}>
-                <a href={project.codeOutput} target="_blank">
+                <a href={project.codeOutput} target="_blank" rel="noreferrer">
                   <img src={project.image} alt={project.title} />
                 </a>
                 <div className="projectDetails">
-                  <a href={project.sourceCode} target="_blank">
+                  <a href={project.sourceCode} target="_blank" rel="noreferrer">
                     {project.title}
                   </a>
                   <p className={project.background}>{project.description}</p>
