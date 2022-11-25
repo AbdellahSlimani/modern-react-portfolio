@@ -53,12 +53,9 @@ const Contact = () => {
               questions, don't hesitate to contact me using below form either.
             </p>
 
-            <h2 className='contact-info'>Contact Infomation</h2>
-           {/*  <a target='_blank' rel='noreferrer' href='https://twitter.com/AbdalahSlimani'>
-              <FontAwesomeIcon icon={} color="#4d4d4e"/>
-            </a>
-            <a target='_blank' rel='noreferrer' href='https://twitter.com/AbdalahSlimani'>
-              <FontAwesomeIcon icon={} color="#4d4d4e"/>
+            <h2 className='contact-info'>Contact Information</h2>
+            {/* <a target='_blank' rel='noreferrer' href='https://twitter.com/AbdalahSlimani'>
+              <FontAwesomeIcon icon={fatwitter} color="#4d4d4e"/>
             </a> */}
           </div>
           <div className="contact-form">
