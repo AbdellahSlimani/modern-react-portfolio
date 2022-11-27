@@ -2,7 +2,7 @@ import sanityClient from "@sanity/client"
 import ImageUrlBuilder from "@sanity/image-url"
 
 const client = sanityClient({
-  projectId: "eg9npfgk",
+  projectId: process.env.REACT_APP_SANITY_PROJECT_ID,
   dataset: process.env.REACT_APP_SANITY_DATASET || "production",
   useCdn: true,
   apiVersion: "2021-03-25"
