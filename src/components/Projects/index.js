@@ -1,18 +1,17 @@
 import { useEffect, useState } from 'react'
-import { Cursor, useTypewriter } from "react-simple-typewriter";
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import projectsData from '../../data/projectsData.json'
 import './index.scss'
+import sanityClient, { urlFor } from '../../sanity'
 
 const Projects = () => {
+  const [projectsData, setProjectsData] = useState([])
   const [text, count] = useTypewriter({
-    words: [
-      'responsible', 'meaningful', 'beautiful'
-    ],
+    words: ['responsible', 'meaningful', 'beautiful'],
     loop: true,
     delaySpeed: 2000,
-  });
+  })
 
   const titlep1 = 'I create '
   const titlep1Array = titlep1.split('')
@@ -28,6 +27,19 @@ const Projects = () => {
     }, 4000)
   }, [])
 
+  useEffect(() => {
+    sanityClient.fetch(
+      `
+        *[_type == "projects"] {
+        ...,
+        }
+      `
+    ).then((data) => {
+      setProjectsData(data)
+    })
+    
+  }, [])
+  
   return (
     <>
       <div className="container projects-page">
@@ -54,19 +66,22 @@ const Projects = () => {
           <hr></hr>
           <div className="projects-grid">
             {projectsData.map((project, i) => (
-              <div className="project" key={i}>
+              <div className="project" key={project._id}>
                 <a href={project.codeOutput} target="_blank" rel="noreferrer">
-                  <img src={project.image} alt={project.title} />
+                  <img src={urlFor(project.image).url()} alt={project.title} />
                 </a>
                 <div className="projectDetails">
                   <a href={project.sourceCode} target="_blank" rel="noreferrer">
                     {project.title}
                   </a>
-                  <p className={project.background}>{project.description}</p>
+                  <p className={project.BackgroundMainColor}>{project.description}</p>
                 </div>
               </div>
             ))}
-            <h2 className="projects_bottom">You have reach the bottom, but don't worry there is always more in the way...</h2>
+            <h2 className="projects_bottom">
+              You have reach the bottom, but don't worry there is always more in
+              the way...
+            </h2>
           </div>
         </div>
       </div>
