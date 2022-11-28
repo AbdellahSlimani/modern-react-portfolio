@@ -65,16 +65,16 @@ const Projects = () => {
           </h1>
           <hr></hr>
           <div className="projects-grid">
-            {projectsData.map((project, i) => (
+            {projectsData?.map((project, i) => (
               <div className="project" key={i}>
-                <a href={project.codeOutput} target="_blank" rel="noreferrer">
-                  <img src={urlFor(project.image).url()} alt={project.title} />
+                <a href={project?.codeOutput} target="_blank" rel="noreferrer">
+                  <img src={urlFor(project?.image).url()} alt={project?.title} />
                 </a>
                 <div className="projectDetails">
-                  <a href={project.sourceCode} target="_blank" rel="noreferrer">
-                    {project.title}
+                  <a href={project?.sourceCode} target="_blank" rel="noreferrer">
+                    {project?.title}
                   </a>
-                  <p className={project.BackgroundMainColor}>{project.description}</p>
+                  <p className={project?.BackgroundMainColor}>{project?.description}</p>
                 </div>
               </div>
             ))}
