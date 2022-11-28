@@ -48,5 +48,31 @@ export default {
         hotspot: true,
       },
     },
+    {
+      title: 'Release Date',
+      name: 'releaseDate',
+      type: 'date'
+    },
+    {
+      title: 'Popularity',
+      name: 'popularity',
+      type: 'number'
+    }
   ],
+  orderings: [
+    {
+      title: 'Release Date, New',
+      name: 'releaseDateDesc',
+      by: [
+        {field: 'releaseDate', direction: 'desc'}
+      ]
+    },
+    {
+      title: 'Popularity',
+      name: 'popularityDesc',
+      by: [
+        {field: 'popularity', direction: 'desc'}
+      ]
+    }
+  ]
 }
