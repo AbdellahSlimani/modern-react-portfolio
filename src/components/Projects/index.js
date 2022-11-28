@@ -30,7 +30,7 @@ const Projects = () => {
   useEffect(() => {
     sanityClient.fetch(
       `
-        *[_type == "projects"] {
+        *[_type == "projects"] | order(_createdAt asc) {
         ...,
         }
       `
@@ -65,8 +65,8 @@ const Projects = () => {
           </h1>
           <hr></hr>
           <div className="projects-grid">
-            {projectsData?.map((project, i) => (
-              <div className="project" key={i}>
+            {projectsData?.map((project) => (
+              <div className="project" key={project?._id}>
                 <a href={project?.codeOutput} target="_blank" rel="noreferrer">
                   <img src={urlFor(project?.image).url()} alt={project?.title} />
                 </a>
