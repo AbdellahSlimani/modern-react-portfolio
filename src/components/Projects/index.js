@@ -66,7 +66,7 @@ const Projects = () => {
           <hr></hr>
           <div className="projects-grid">
             {projectsData.map((project, i) => (
-              <div className="project" key={project._id}>
+              <div className="project" key={i}>
                 <a href={project.codeOutput} target="_blank" rel="noreferrer">
                   <img src={urlFor(project.image).url()} alt={project.title} />
                 </a>
