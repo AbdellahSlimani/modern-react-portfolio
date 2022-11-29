@@ -50,14 +50,14 @@ const Sidebar = () => (
       </NavLink>
     </nav>
     <ul>
-      <li>
+    <li>
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/abdellahSlimani"
+          href="https://github.com/AbdellahSlimani"
         >
           <FontAwesomeIcon
-            icon={faLinkedin}
+            icon={faGithub}
             color="#4d4d4e"
             className="anchor-icon"
           />
@@ -67,10 +67,10 @@ const Sidebar = () => (
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/AbdellahSlimani"
+          href="https://www.linkedin.com/in/abdellahSlimani"
         >
           <FontAwesomeIcon
-            icon={faGithub}
+            icon={faLinkedin}
             color="#4d4d4e"
             className="anchor-icon"
           />

@@ -71,30 +71,6 @@ const Contact = () => {
                   slimaniabdellah.as@gmail.com
                 </p>
               </div>
-              <div className="contactInfo__link">
-                <FontAwesomeIcon icon={faTwitter} color="#e7ab0a" />
-                <p className="text-[5vw] md:text-2xl">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/AbdalahSlimani"
-                  >
-                    Twitter.com/abdalahslimani
-                  </a>
-                </p>
-              </div>
-              <div className="contactInfo__link">
-                <FontAwesomeIcon icon={faLinkedin} color="#e7ab0a" />
-                <p className="text-[5vw] md:text-2xl">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/AbdalahSlimani"
-                  >
-                    LinkedIN.com/abdellahslimani
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
           <div className="contact-form">
