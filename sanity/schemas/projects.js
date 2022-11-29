@@ -1,8 +1,15 @@
+import {
+  orderRankField,
+  orderRankOrdering,
+} from '@sanity/orderable-document-list';
+
 export default {
   name: 'projects',
   title: 'Projects',
   type: 'document',
+  orderings: [orderRankOrdering],
   fields: [
+    orderRankField({ type: 'projects' }),
     {
       name: 'title',
       title: 'Title',
@@ -48,19 +55,5 @@ export default {
         hotspot: true,
       },
     },
-    {
-      title: 'Popularity',
-      name: 'popularity',
-      type: 'number'
-    }
   ],
-  orderings: [
-    {
-      title: 'Popularity',
-      name: 'popularityDesc',
-      by: [
-        {field: 'popularity', direction: 'desc'}
-      ]
-    }
-  ]
 }
