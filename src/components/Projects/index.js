@@ -30,7 +30,7 @@ const Projects = () => {
   useEffect(() => {
     sanityClient.fetch(
       `
-        *[_type == "projects"] | order(popularityDesc) {
+        *[_type == "projects"] | order(orderRank){
         ...,
         }
       `
