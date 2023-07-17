@@ -63,7 +63,7 @@ const Contact = () => {
               <h2 className="contactInfo__title">Contact Information</h2>
               <div className="contactInfo__link">
                 <FontAwesomeIcon icon={faPhone} color="#e7ab0a" />
-                <p className="text-[5vw] md:text-2xl">+212 637477294</p>
+                <p className="text-[5vw] md:text-2xl">+212 770032613</p>
               </div>
               <div className="contactInfo__link">
                 <FontAwesomeIcon icon={faEnvelope} color="#e7ab0a" />
